@@ -16,4 +16,4 @@ LIBRARIES = -LC:/SDL_MinGW/SDL2-2.0.12/x86_64-w64-mingw32/lib \
 LINKER_FLAGS = -lmingw32 -lSDL2main -lSDL2 -lSDL2_image 
 
 all :
-	$(COMPILER) $(OBJS) $(FLAGS) $(INCLUDES) $(LIBRARIES) $(LINKER_FLAGS) -o release/SDL_chess_v2_x64
+	$(COMPILER) $(OBJS) $(FLAGS) $(INCLUDES) $(LIBRARIES) $(LINKER_FLAGS) -o release/SDL_chess
